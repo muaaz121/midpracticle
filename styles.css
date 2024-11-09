@@ -62,7 +62,19 @@ img {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for images */
     margin-bottom: 20px; /* Spacing below images */
     
+    
 }
+a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  a:hover {
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+  }
 
 .flex-container {
     display: flex; /* Use flexbox layout */
