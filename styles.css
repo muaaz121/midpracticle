@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    background-color: black; /* Green background */
+    background-color: rgb(186, 179, 179); /* Green background */
     padding: 15px; /* Padding for the nav */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Shadow for the nav */
 }
@@ -65,14 +65,15 @@ img {
     
 }
 a {
-    box-shadow: inset 0 0 0 0 #54b3d6;
-    color: #54b3d6;
+    box-shadow: inset 0 0 0 0 rgb(186, 179, 179);
+    color: #111313;
     margin: 0 -.25rem;
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    
   }
   a:hover {
-    box-shadow: inset 100px 0 0 0 #54b3d6;
+    box-shadow: inset 100px 0 0 0 rgb(186, 179, 179);
     color: white;
   }
 
@@ -153,6 +154,8 @@ input[type="submit"]:hover {
 textarea {
     resize: vertical; /* Allows vertical resizing */
 }
+
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
